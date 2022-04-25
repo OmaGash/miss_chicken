@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="food.chicken.miss">
+
+   <application android:label="missChicken">
+      <!-- You will only need to add this meta-data tag, but make sure it's a child of application -->
+      <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyCTGyMyRLiV3IPNlyubnGB_E2QFmdTN4HE"/>
+      <meta-data android:name="expo.modules.updates.EXPO_UPDATE_URL" android:value="https://exp.host/@omagash/miss_chicken"/>
+      <meta-data android:name="expo.modules.updates.EXPO_SDK_VERSION" android:value="43.0.0"/>
+
+      <!-- You will also only need to add this uses-library tag -->
+      <uses-library android:name="org.apache.http.legacy"/>
+   </application>
+
+</manifest>
